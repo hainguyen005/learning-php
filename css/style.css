@@ -1,0 +1,46 @@
+/* style.css */
+
+/* Đặt lại các thiết lập mặc định của trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định dạng cho toàn bộ phần thân (body) của trang web */
+body {
+    font-family: Arial, sans-serif; /* Chọn font chữ */
+    background-color: #f4f4f9;      /* Màu nền xanh nhạt */
+    color: #333;                    /* Màu chữ cơ bản là xám đậm */
+    line-height: 1.6;               /* Khoảng cách dòng */
+}
+
+/* Định dạng cho các tiêu đề chính */
+h1 {
+    color: #0056b3; /* Màu xanh dương đậm */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Định dạng cho các đoạn văn bản */
+p {
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+#nhom1 {
+    background-color: #e0f7fa; /* Màu nền xanh nhạt cho nhóm 1 */
+    padding: 10px;
+    border-radius: 5px;
+}
+#nhom2 {
+    background-color: #ffe0b2; /* Màu nền cam nhạt cho nhóm 2 */
+    color: #0056b3;
+    padding: 10px;
+    border-radius: 5px;
+}
+.ten_nhom {
+    color: aqua;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
