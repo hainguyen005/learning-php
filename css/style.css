@@ -29,12 +29,25 @@ p {
 }
 #nhom1 {
     background-color: #e0f7fa; /* Màu nền xanh nhạt cho nhóm 1 */
+    color: #1deda7;
     padding: 10px;
     border-radius: 5px;
 }
 #nhom2 {
     background-color: #ffe0b2; /* Màu nền cam nhạt cho nhóm 2 */
-    color: #0056b3;
+    color: #071e36;
+    padding: 10px;
+    border-radius: 5px;
+}
+#nhom3 {
+    background-color: #f3e5f5; /* Màu nền tím nhạt cho nhóm 3 */
+    color: #4a148c;
+    padding: 10px;
+    border-radius: 5px;
+}
+#nhom4 {
+    background-color: #dcedc8; /* Màu nền xanh lá nhạt cho nhóm 4 */
+    color: #33691e;
     padding: 10px;
     border-radius: 5px;
 }
@@ -43,4 +56,25 @@ p {
     font-weight: bold;
     font-size: 1.2em;
     margin-top: 10px;
+}
+.tieu_de {
+    background-color: aqua;
+    color: rgb(9, 17, 12);
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.danh_muc {
+    background-color: rgb(155, 168, 155);
+    color: rgb(237, 233, 233);
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.trang_thai {
+    background-color: rgb(240, 153, 12);
+    color: rgb(9, 7, 7);
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
 }
