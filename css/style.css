@@ -78,3 +78,70 @@ p {
     font-size: 1em;
     margin-bottom: 10px;
 }
+/*form dang ky */
+.register-form{
+    max-width: 500px;
+     margin: 24px auto 40px;
+    background: #fff;
+    padding: 20px 22px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(red, green, blue, alpha);
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"],
+.register-form select,
+.register-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: inherit;
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.register-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.register-form input[type="button"],
+.register-form input[type="submit"] {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background: #0077ff;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.register-form input[type="button"]:hover,
+.register-form input[type="submit"]:hover {
+  background: #005fd1;
+}
+
+/* Tiêu đề + mô tả form đăng ký */
+h1 {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
