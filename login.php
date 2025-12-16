@@ -16,7 +16,7 @@ if (isset($_POST['username'])) {
 <body>
     <form method="post">
         <label for="Nhap ten"></label>
-        <input type="text" name="usrname" required>
+        <input type="text" name="username" required>
         <button type="submit">Log in</button>
     </form>
 </body>

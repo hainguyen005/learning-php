@@ -15,9 +15,8 @@ $username = $_SESSION['username'];
     <title>Document</title>
 </head>
 <body>
-    <h1>Xin chao <?php echo htmlspecialchars($username) ?> </h1>
-    <form method="post" action="logout.php">
-        <button type="submit">log out</button>
-    </form>
+    <h1>Xin chao, <?php echo $_SESSION["username"]; ?> ! </h1>
+    <p>Chào mừng bạn đăng nhập</p>
+    <a href="logout.php">log out</a>
 </body>
 </html>
