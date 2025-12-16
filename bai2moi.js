@@ -8,9 +8,11 @@ const form = document.getElementById("loginForm");
 
             if (username.value.trim() === "" || password.value.trim() === "") {
                 messageDiv.textContent = "Vui lòng nhập đầy đủ username và password!";
-                messageDiv.style.color = "red";     
+                messageDiv.style.color = "red";   
+                messageDiv.classList.add("error-message");  
             } else {
                 messageDiv.textContent = "Successful!";
-                messageDiv.style.color = "green";  
+                messageDiv.style.color = "black";
+                  
             }
         });
